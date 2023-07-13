@@ -2,24 +2,29 @@
 using ManageRPG.Vista;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.SqlClient;
 
 namespace ManageRPG.Controlador
 {
     internal class metodosAdmin
     {
-        public static List<Usuario> ObtenerDatos(int tipoUsuario)
-        {
+        public DataTable ObtenerDatos(int tipoUsuario)
+        {   
+            //Admin listaUsuarios = new listaUsuarios.get(DataGridView.listaUsuarios);
+
             if (tipoUsuario == 1)
-            {
-                List<Usuario> usuarios = new List<Usuario>();
-                Usuario usuario = new Usuario();
-                usuario.idUsuario = 1; usuario.usuario = "Joaquin"; usuario.password = "chupalito"; usuario.tipo = 2;
-                usuarios.Add(usuario);
-                MessageBox.Show("Admin correcto");
-                return usuarios;
+            {   
+                Base conexiones = new Base();
+                string query = "SELECT * FROM USUARIOS";
+                SqlCommand accion = new SqlCommand(query, conexiones.conexion);
+                SqlDataAdapter datos = new SqlDataAdapter(accion);
+                DataTable tabla = new DataTable();
+                datos.Fill(tabla);
+                return tabla;
             }
             else
             {

@@ -41,8 +41,8 @@
             label3 = new Label();
             label4 = new Label();
             botonDesconectarse = new Button();
-            dataGridView1 = new DataGridView();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            listaUsuarios = new DataGridView();
+            ((System.ComponentModel.ISupportInitialize)listaUsuarios).BeginInit();
             SuspendLayout();
             // 
             // nombreUsuario
@@ -160,21 +160,21 @@
             botonDesconectarse.UseVisualStyleBackColor = true;
             botonDesconectarse.Click += botonDesconectarse_Click;
             // 
-            // dataGridView1
+            // listaUsuarios
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(231, 41);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowTemplate.Height = 25;
-            dataGridView1.Size = new Size(557, 408);
-            dataGridView1.TabIndex = 15;
+            listaUsuarios.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            listaUsuarios.Location = new Point(231, 41);
+            listaUsuarios.Name = "listaUsuarios";
+            listaUsuarios.RowTemplate.Height = 25;
+            listaUsuarios.Size = new Size(557, 408);
+            listaUsuarios.TabIndex = 15;
             // 
             // Admin
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 532);
-            Controls.Add(dataGridView1);
+            Controls.Add(listaUsuarios);
             Controls.Add(botonDesconectarse);
             Controls.Add(label4);
             Controls.Add(label3);
@@ -191,7 +191,7 @@
             Name = "Admin";
             Text = "Admin";
             Load += Admin_Load;
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)listaUsuarios).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -211,6 +211,6 @@
         private Label label3;
         private Label label4;
         private Button botonDesconectarse;
-        private DataGridView dataGridView1;
+        private DataGridView listaUsuarios;
     }
 }

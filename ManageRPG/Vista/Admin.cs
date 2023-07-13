@@ -33,8 +33,10 @@ namespace ManageRPG.Vista
             var usuario = 1; //aqui va el login que debe retornar el tipo de usuario
             if (usuario == 1)
             {
-                var listaUsuario = metodosAdmin.ObtenerDatos(usuario);
-            }
+                metodosAdmin metodosAdmin = new metodosAdmin();
+                DataTable listaUsuario = metodosAdmin.ObtenerDatos(usuario);
+                listaUsuarios.DataSource = listaUsuario;
+            }   
             else
             {
                 MessageBox.Show("error de usuario");
