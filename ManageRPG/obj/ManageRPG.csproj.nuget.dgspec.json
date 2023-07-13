@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Matteo\\Documents\\Zona de Trabajo\\ManageRpg\\ManageRPG_Code\\ManageRPG\\ManageRPG.csproj": {}
+    "C:\\Users\\Acer\\Source\\Repos\\ManageRpg_Duoc\\ManageRPG\\ManageRPG.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Matteo\\Documents\\Zona de Trabajo\\ManageRpg\\ManageRPG_Code\\ManageRPG\\ManageRPG.csproj": {
+    "C:\\Users\\Acer\\Source\\Repos\\ManageRpg_Duoc\\ManageRPG\\ManageRPG.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Matteo\\Documents\\Zona de Trabajo\\ManageRpg\\ManageRPG_Code\\ManageRPG\\ManageRPG.csproj",
+        "projectUniqueName": "C:\\Users\\Acer\\Source\\Repos\\ManageRpg_Duoc\\ManageRPG\\ManageRPG.csproj",
         "projectName": "ManageRPG",
-        "projectPath": "C:\\Users\\Matteo\\Documents\\Zona de Trabajo\\ManageRpg\\ManageRPG_Code\\ManageRPG\\ManageRPG.csproj",
-        "packagesPath": "C:\\Users\\Matteo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Matteo\\Documents\\Zona de Trabajo\\ManageRpg\\ManageRPG_Code\\ManageRPG\\obj\\",
+        "projectPath": "C:\\Users\\Acer\\Source\\Repos\\ManageRpg_Duoc\\ManageRPG\\ManageRPG.csproj",
+        "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Acer\\Source\\Repos\\ManageRpg_Duoc\\ManageRPG\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Matteo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
