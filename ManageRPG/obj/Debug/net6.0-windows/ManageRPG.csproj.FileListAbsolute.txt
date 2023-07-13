@@ -27,3 +27,38 @@ C:\Users\Matteo\Documents\Zona de Trabajo\ManageRpg\ManageRPG_Code\ManageRPG\bin
 C:\Users\Matteo\Documents\Zona de Trabajo\ManageRpg\ManageRPG_Code\ManageRPG\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.DirectoryServices.Protocols.dll
 C:\Users\Matteo\Documents\Zona de Trabajo\ManageRpg\ManageRPG_Code\ManageRPG\obj\Debug\net6.0-windows\ManageRPG.csproj.CopyComplete
 C:\Users\Matteo\Documents\Zona de Trabajo\ManageRpg\ManageRPG_Code\ManageRPG\obj\Debug\net6.0-windows\ManageRPG.Login.resources
+C:\Users\Acer\Source\Repos\ManageRpg_Duoc\ManageRPG\obj\Debug\net6.0-windows\ManageRPG.csproj.AssemblyReference.cache
+C:\Users\Acer\Source\Repos\ManageRpg_Duoc\ManageRPG\obj\Debug\net6.0-windows\ManageRPG.Properties.Resources.resources
+C:\Users\Acer\Source\Repos\ManageRpg_Duoc\ManageRPG\obj\Debug\net6.0-windows\ManageRPG.Vista.Admin.resources
+C:\Users\Acer\Source\Repos\ManageRpg_Duoc\ManageRPG\obj\Debug\net6.0-windows\ManageRPG.Login.resources
+C:\Users\Acer\Source\Repos\ManageRpg_Duoc\ManageRPG\obj\Debug\net6.0-windows\ManageRPG.csproj.GenerateResource.cache
+C:\Users\Acer\Source\Repos\ManageRpg_Duoc\ManageRPG\obj\Debug\net6.0-windows\ManageRPG.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\Source\Repos\ManageRpg_Duoc\ManageRPG\obj\Debug\net6.0-windows\ManageRPG.AssemblyInfoInputs.cache
+C:\Users\Acer\Source\Repos\ManageRpg_Duoc\ManageRPG\obj\Debug\net6.0-windows\ManageRPG.AssemblyInfo.cs
+C:\Users\Acer\Source\Repos\ManageRpg_Duoc\ManageRPG\obj\Debug\net6.0-windows\ManageRPG.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Source\Repos\ManageRpg_Duoc\ManageRPG\obj\Debug\net6.0-windows\ManageRPG.dll
+C:\Users\Acer\Source\Repos\ManageRpg_Duoc\ManageRPG\obj\Debug\net6.0-windows\refint\ManageRPG.dll
+C:\Users\Acer\Source\Repos\ManageRpg_Duoc\ManageRPG\obj\Debug\net6.0-windows\ManageRPG.pdb
+C:\Users\Acer\Source\Repos\ManageRpg_Duoc\ManageRPG\bin\Debug\net6.0-windows\ManageRPG.exe
+C:\Users\Acer\Source\Repos\ManageRpg_Duoc\ManageRPG\bin\Debug\net6.0-windows\ManageRPG.deps.json
+C:\Users\Acer\Source\Repos\ManageRpg_Duoc\ManageRPG\bin\Debug\net6.0-windows\ManageRPG.runtimeconfig.json
+C:\Users\Acer\Source\Repos\ManageRpg_Duoc\ManageRPG\bin\Debug\net6.0-windows\ManageRPG.dll
+C:\Users\Acer\Source\Repos\ManageRpg_Duoc\ManageRPG\bin\Debug\net6.0-windows\ManageRPG.pdb
+C:\Users\Acer\Source\Repos\ManageRpg_Duoc\ManageRPG\bin\Debug\net6.0-windows\Oracle.ManagedDataAccess.dll
+C:\Users\Acer\Source\Repos\ManageRpg_Duoc\ManageRPG\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Acer\Source\Repos\ManageRpg_Duoc\ManageRPG\bin\Debug\net6.0-windows\System.Diagnostics.PerformanceCounter.dll
+C:\Users\Acer\Source\Repos\ManageRpg_Duoc\ManageRPG\bin\Debug\net6.0-windows\System.DirectoryServices.dll
+C:\Users\Acer\Source\Repos\ManageRpg_Duoc\ManageRPG\bin\Debug\net6.0-windows\System.DirectoryServices.Protocols.dll
+C:\Users\Acer\Source\Repos\ManageRpg_Duoc\ManageRPG\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Acer\Source\Repos\ManageRpg_Duoc\ManageRPG\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Acer\Source\Repos\ManageRpg_Duoc\ManageRPG\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Acer\Source\Repos\ManageRpg_Duoc\ManageRPG\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Acer\Source\Repos\ManageRpg_Duoc\ManageRPG\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Acer\Source\Repos\ManageRpg_Duoc\ManageRPG\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\Acer\Source\Repos\ManageRpg_Duoc\ManageRPG\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.DirectoryServices.dll
+C:\Users\Acer\Source\Repos\ManageRpg_Duoc\ManageRPG\bin\Debug\net6.0-windows\runtimes\linux\lib\net6.0\System.DirectoryServices.Protocols.dll
+C:\Users\Acer\Source\Repos\ManageRpg_Duoc\ManageRPG\bin\Debug\net6.0-windows\runtimes\osx\lib\net6.0\System.DirectoryServices.Protocols.dll
+C:\Users\Acer\Source\Repos\ManageRpg_Duoc\ManageRPG\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.DirectoryServices.Protocols.dll
+C:\Users\Acer\Source\Repos\ManageRpg_Duoc\ManageRPG\obj\Debug\net6.0-windows\ManageRPG.csproj.CopyComplete
+C:\Users\Acer\Source\Repos\ManageRpg_Duoc\ManageRPG\obj\Debug\net6.0-windows\ManageRPG.genruntimeconfig.cache
+C:\Users\Acer\Source\Repos\ManageRpg_Duoc\ManageRPG\obj\Debug\net6.0-windows\ref\ManageRPG.dll

@@ -1,6 +1,8 @@
 using System.Security.Cryptography.X509Certificates;
 using System.Data.OracleClient;
 using Oracle.ManagedDataAccess.Client;
+using ManageRPG.Vista;
+using ManageRPG.Controlador;
 
 namespace ManageRPG;
 
@@ -29,7 +31,9 @@ public partial class Login : Form
 
     private void btnIniciarSesion_Click(object sender, EventArgs e)
     {
-        MessageBox.Show("Esto es un mensaje","Mensaje");
+        Admin vistaAdministrador = new Admin();
+        vistaAdministrador.Show();
+
     }
 
     private void txtContrasenna_TextChanged(object sender, EventArgs e)

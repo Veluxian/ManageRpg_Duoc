@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ManageRPG.Controlador;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,39 @@ namespace ManageRPG.Vista
         public Admin()
         {
             InitializeComponent();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Admin_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void actualizar_Click(object sender, EventArgs e)
+        {
+            var usuario = 1; //aqui va el login que debe retornar el tipo de usuario
+            if (usuario == 1)
+            {
+                var listaUsuario = metodosAdmin.ObtenerDatos(usuario);
+            }
+            else
+            {
+                MessageBox.Show("error de usuario");
+            }
+        }
+
+        private void botonModificar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void botonDesconectarse_Click(object sender, EventArgs e)
+        {
+            metodosAdmin.Desconectarse();
         }
     }
 }
