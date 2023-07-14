@@ -1,4 +1,4 @@
-﻿using ManageRPG.Clases;
+﻿using ManageRPG.Modelo;
 using ManageRPG.Vista;
 using System;
 using System.Collections.Generic;
@@ -12,18 +12,27 @@ namespace ManageRPG.Controlador
 {
     internal class metodosAdmin
     {
-        public DataTable ObtenerDatos()
-        {      
-                Modelo.DatabaseConnection conexiones = Modelo.DatabaseConnection.Instance;
-                SqlConnection Sqlconexion = conexiones.GetConnection();
-                Sqlconexion.Open();
-                string query = "SELECT * FROM USUARIOS";
-                SqlCommand accion = new SqlCommand(query, Sqlconexion);
-                SqlDataAdapter datos = new SqlDataAdapter(accion);
-                DataTable tabla = new DataTable();
-                datos.Fill(tabla);
-                Sqlconexion.Close();
-                return tabla;
+        public List<Usuario> ObtenerDatos()
+        {
+            List<Usuario> tabla = new List<Usuario>();
+            Modelo.DatabaseConnection conexiones = Modelo.DatabaseConnection.Instance;
+            SqlConnection Sqlconexion = conexiones.GetConnection();
+            Sqlconexion.Open();
+            string query = "SELECT * FROM USUARIO";
+            SqlCommand accion = new SqlCommand(query, Sqlconexion);
+            SqlDataReader datos = accion.ExecuteReader();
+            while (datos.Read())
+            {
+                tabla.Add(new Usuario
+                {
+                    id_usuario = int.Parse(datos["id_usuario"].ToString()),
+                    usuario = datos["usuario"].ToString(),
+                    contrasenna = datos["contrasenna"].ToString(),
+                    id_rol = int.Parse(datos["id_rol"].ToString()),
+                });
+            }
+            Sqlconexion.Close();
+            return tabla;
         }
 
         public static void AgregarUsuario(string nombreUsuario, string password1, string password2, int tipo)

@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ManageRPG.Clases
+namespace ManageRPG.Modelo
 {
     public class Usuario
     {
-        public int idUsuario { set; get; }
+        public int id_usuario { set; get; }
         public string usuario { set; get; }
-        public string password { set; get; }
-        public int tipo { set; get; }
+        public string contrasenna { set; get; }
+        public int id_rol { set; get; }
     }
 }

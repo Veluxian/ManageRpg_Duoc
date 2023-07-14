@@ -41,8 +41,9 @@
             label3 = new Label();
             label4 = new Label();
             botonDesconectarse = new Button();
-            listaUsuarios = new DataGridView();
-            ((System.ComponentModel.ISupportInitialize)listaUsuarios).BeginInit();
+            dataGridUsuarios = new DataGridView();
+            id_usuario = new TextBox();
+            ((System.ComponentModel.ISupportInitialize)dataGridUsuarios).BeginInit();
             SuspendLayout();
             // 
             // nombreUsuario
@@ -162,22 +163,31 @@
             botonDesconectarse.UseVisualStyleBackColor = true;
             botonDesconectarse.Click += botonDesconectarse_Click;
             // 
-            // listaUsuarios
+            // dataGridUsuarios
             // 
-            listaUsuarios.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            listaUsuarios.Location = new Point(231, 41);
-            listaUsuarios.Name = "listaUsuarios";
-            listaUsuarios.RowTemplate.Height = 25;
-            listaUsuarios.Size = new Size(557, 408);
-            listaUsuarios.TabIndex = 15;
-            listaUsuarios.CellContentClick += listaUsuarios_CellContentClick;
+            dataGridUsuarios.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridUsuarios.Location = new Point(231, 41);
+            dataGridUsuarios.Name = "dataGridUsuarios";
+            dataGridUsuarios.RowTemplate.Height = 25;
+            dataGridUsuarios.Size = new Size(557, 408);
+            dataGridUsuarios.TabIndex = 15;
+            dataGridUsuarios.CellContentClick += listaUsuarios_CellContentClick;
+            // 
+            // id_usuario
+            // 
+            id_usuario.Location = new Point(10, 502);
+            id_usuario.Name = "id_usuario";
+            id_usuario.Size = new Size(100, 23);
+            id_usuario.TabIndex = 16;
+            id_usuario.Visible = false;
             // 
             // Admin
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 532);
-            Controls.Add(listaUsuarios);
+            ClientSize = new Size(790, 532);
+            Controls.Add(id_usuario);
+            Controls.Add(dataGridUsuarios);
             Controls.Add(botonDesconectarse);
             Controls.Add(label4);
             Controls.Add(label3);
@@ -194,7 +204,7 @@
             Name = "Admin";
             Text = "Admin";
             Load += Admin_Load;
-            ((System.ComponentModel.ISupportInitialize)listaUsuarios).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridUsuarios).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -214,6 +224,7 @@
         private Label label3;
         private Label label4;
         private Button botonDesconectarse;
-        private DataGridView listaUsuarios;
+        private DataGridView dataGridUsuarios;
+        private TextBox id_usuario;
     }
 }
