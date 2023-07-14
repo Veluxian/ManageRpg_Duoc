@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XCMDNog3Cr73uhejLSoDTWcgCp5wPo8/GNw5hyxUvZWhmI42Pas40gMtUfz2pIGZGU7RquYpvTTnlcgVMg5mCQ==",
+  "dgSpecHash": "tErtuPySDDlZIWZwgibhzIIU4ZBWFfC8U6rqm0uiRIdtl9Kykmmssv4b+KIPn5csYw4qNAUcyNBAN9nYXTbkzA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Acer\\Source\\Repos\\ManageRpg_Duoc\\ManageRPG\\ManageRPG.csproj",
+  "projectFilePath": "C:\\Users\\Acer\\source\\repos\\ManageRpg_Duoc\\ManageRPG\\ManageRPG.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Acer\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",

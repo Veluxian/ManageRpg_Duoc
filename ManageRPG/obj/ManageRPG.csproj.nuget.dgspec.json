@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Acer\\Source\\Repos\\ManageRpg_Duoc\\ManageRPG\\ManageRPG.csproj": {}
+    "C:\\Users\\Acer\\source\\repos\\ManageRpg_Duoc\\ManageRPG\\ManageRPG.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Acer\\Source\\Repos\\ManageRpg_Duoc\\ManageRPG\\ManageRPG.csproj": {
+    "C:\\Users\\Acer\\source\\repos\\ManageRpg_Duoc\\ManageRPG\\ManageRPG.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Acer\\Source\\Repos\\ManageRpg_Duoc\\ManageRPG\\ManageRPG.csproj",
+        "projectUniqueName": "C:\\Users\\Acer\\source\\repos\\ManageRpg_Duoc\\ManageRPG\\ManageRPG.csproj",
         "projectName": "ManageRPG",
-        "projectPath": "C:\\Users\\Acer\\Source\\Repos\\ManageRpg_Duoc\\ManageRPG\\ManageRPG.csproj",
+        "projectPath": "C:\\Users\\Acer\\source\\repos\\ManageRpg_Duoc\\ManageRPG\\ManageRPG.csproj",
         "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Acer\\Source\\Repos\\ManageRpg_Duoc\\ManageRPG\\obj\\",
         "projectStyle": "PackageReference",

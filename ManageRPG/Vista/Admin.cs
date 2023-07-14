@@ -30,27 +30,45 @@ namespace ManageRPG.Vista
 
         private void actualizar_Click(object sender, EventArgs e)
         {
-            var usuario = 1; //aqui va el login que debe retornar el tipo de usuario
-            if (usuario == 1)
-            {
-                metodosAdmin metodosAdmin = new metodosAdmin();
-                DataTable listaUsuario = metodosAdmin.ObtenerDatos(usuario);
-                listaUsuarios.DataSource = listaUsuario;
-            }   
-            else
-            {
-                MessageBox.Show("error de usuario");
-            }
+            metodosAdmin metodosAdmin = new metodosAdmin();
+            DataTable listaUsuario = metodosAdmin.ObtenerDatos();
+            listaUsuarios.DataSource = listaUsuario;
         }
 
         private void botonModificar_Click(object sender, EventArgs e)
         {
+            int id_usuario = 1;
+            string usuario = nombreUsuario.Text;
+            string pass1 = password1.Text;
+            string pass2 = password2.Text;
+            int tipo = tipoUsuario.SelectedIndex;
+            metodosAdmin.ModificarUsuario(id_usuario, usuario, pass1, pass2, tipo);
 
         }
 
         private void botonDesconectarse_Click(object sender, EventArgs e)
         {
             metodosAdmin.Desconectarse();
+        }
+
+        private void listaUsuarios_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void botonAgregar_Click(object sender, EventArgs e)
+        {
+            string usuario = nombreUsuario.Text;
+            string pass1 = password1.Text;
+            string pass2 = password2.Text;
+            int tipo = tipoUsuario.SelectedIndex;
+            metodosAdmin.AgregarUsuario(usuario, pass1, pass2, tipo);
+        }
+
+        private void botonEliminar_Click(object sender, EventArgs e)
+        {
+            int id_usuario = 1;
+            metodosAdmin.EliminarUsuario(id_usuario);
         }
     }
 }

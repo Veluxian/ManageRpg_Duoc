@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ManageRPG",
+    "\\ManageRPG\\Vista"
   ],
-  "SelectedNode": "\\C:\\Users\\Acer\\Source\\Repos\\ManageRpg_Duoc",
+  "SelectedNode": "\\ManageRPG\\Vista\\Vista Login.cs",
   "PreviewInSolutionExplorer": false
 }

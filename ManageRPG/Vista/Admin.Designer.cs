@@ -67,6 +67,7 @@
             botonAgregar.TabIndex = 3;
             botonAgregar.Text = "Agregar";
             botonAgregar.UseVisualStyleBackColor = true;
+            botonAgregar.Click += botonAgregar_Click;
             // 
             // botonModificar
             // 
@@ -87,6 +88,7 @@
             botonEliminar.TabIndex = 5;
             botonEliminar.Text = "Eliminar";
             botonEliminar.UseVisualStyleBackColor = true;
+            botonEliminar.Click += botonEliminar_Click;
             // 
             // actualizar
             // 
@@ -168,6 +170,7 @@
             listaUsuarios.RowTemplate.Height = 25;
             listaUsuarios.Size = new Size(557, 408);
             listaUsuarios.TabIndex = 15;
+            listaUsuarios.CellContentClick += listaUsuarios_CellContentClick;
             // 
             // Admin
             // 

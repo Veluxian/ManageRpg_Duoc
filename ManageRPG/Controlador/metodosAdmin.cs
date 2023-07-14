@@ -12,32 +12,31 @@ namespace ManageRPG.Controlador
 {
     internal class metodosAdmin
     {
-        public DataTable ObtenerDatos(int tipoUsuario)
-        {   
-            //Admin listaUsuarios = new listaUsuarios.get(DataGridView.listaUsuarios);
-
-            if (tipoUsuario == 1)
-            {   
-                Base conexiones = new Base();
+        public DataTable ObtenerDatos()
+        {      
+                Modelo.DatabaseConnection conexiones = Modelo.DatabaseConnection.Instance;
+                SqlConnection Sqlconexion = conexiones.GetConnection();
+                Sqlconexion.Open();
                 string query = "SELECT * FROM USUARIOS";
-                SqlCommand accion = new SqlCommand(query, conexiones.conexion);
+                SqlCommand accion = new SqlCommand(query, Sqlconexion);
                 SqlDataAdapter datos = new SqlDataAdapter(accion);
                 DataTable tabla = new DataTable();
                 datos.Fill(tabla);
+                Sqlconexion.Close();
                 return tabla;
-            }
-            else
-            {
-                MessageBox.Show("Error de tipo de Usuario");
-                return null;
-            }
         }
 
         public static void AgregarUsuario(string nombreUsuario, string password1, string password2, int tipo)
         {
             if (password1 == password2)
             {
+                Modelo.DatabaseConnection conexiones = Modelo.DatabaseConnection.Instance;
+                SqlConnection Sqlconexion = conexiones.GetConnection();
+                Sqlconexion.Open();
                 string query = "INSERT INTO USUARIO(id_Usuario, Usuario, contrasenna, id_rol) VALUES(next value for seq_usuario, '"+ nombreUsuario +"', '"+ password1 + "', '"+ tipo +"')";
+                SqlCommand agregar = new SqlCommand(query, Sqlconexion);
+                agregar.ExecuteNonQuery();
+                Sqlconexion.Close();
             }
             else
             {
@@ -49,23 +48,29 @@ namespace ManageRPG.Controlador
         {
             if (password1 == password2)
             {
+                Modelo.DatabaseConnection conexiones = Modelo.DatabaseConnection.Instance;
+                SqlConnection Sqlconexion = conexiones.GetConnection();
+                Sqlconexion.Open();
                 string query = " UPDATE USUARIO SET Usuario = '"+ nombreUsuario +"', contrasenna = '"+ password1 +"', id_rol = '"+ tipo +"' WHERE id_Usuario = '"+ idUsuario +"' ";
+                SqlCommand modificar = new SqlCommand(query, Sqlconexion);
+                modificar.ExecuteNonQuery();
+                Sqlconexion.Close();
             }
             else
             {
                 MessageBox.Show("Error de Actualizacion");
             }
         }
-        public static void EliminarUsuario(int idUsuario, bool confirmacion)
+        public static void EliminarUsuario(int idUsuario)
         {
-            if (confirmacion == true)
-            {
+                Modelo.DatabaseConnection conexiones = Modelo.DatabaseConnection.Instance;
+                SqlConnection Sqlconexion = conexiones.GetConnection();
+                Sqlconexion.Open();
                 string query = " DELETE FROM USUARIO WHERE id_Usuario = '"+ idUsuario +"'";
-            }
-            else
-            {
-                MessageBox.Show("Error eliminacion");
-            }
+                SqlCommand eliminar = new SqlCommand(query, Sqlconexion);
+                eliminar.ExecuteNonQuery();
+                Sqlconexion.Close();
+                
         }
 
         public static void Desconectarse()
